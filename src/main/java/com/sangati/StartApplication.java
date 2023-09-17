@@ -15,7 +15,7 @@ public class StartApplication extends SpringBootServletInitializer {
     @GetMapping("/")
     public String index(final Model model) {
        
-        return "Welcome Spring Boot Application";
+        return "Welcome Spring Boot Application. Welcome";
     }
 
     public static void main(String[] args) {
